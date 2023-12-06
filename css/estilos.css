@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url();
+}
+header{
+    position: relative;
+    width: 100%;
+}
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+footer .footer-text{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background:rgba(235,35,44,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #fff;
+}
+footer .footer-text p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+nav {
+    width: 1335px;
+    height: 60px;
+    background: rgb(0, 0, 0);
+    float: left;
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-decoration: none;
+    transition: .3px;
+}
+nav ul li a:hover {
+    font-size: 25px;
+    color: cyan;
+}
+nav ul li #contacto:hover {
+    font-size: 25px;
+    color: red;
+}
+
+BODY {color:rgb(0, 0, 0) }
+P {color:rgb(0, 0, 0);  
+    font-size: medium;
+   text-align:center;
+   text-indent:10px;
+  }
